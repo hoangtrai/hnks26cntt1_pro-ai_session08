@@ -1,7 +1,7 @@
 ﻿
 
 
-# 1. Thiết kế ban đầu (v 1.0)
+# 1. Thiết kế ban đầu 
 **Mục tiêu**: Xử lý quy trình phức tạp qua nhiều bước liên kết, tích hợp Thư viện Prompt , Custom Instructions , phòng chống Prompt Injection. **Luồng**: 
 - Xác minh đầu vào 
 - Xử lý chính  
@@ -16,7 +16,7 @@
 
 # 2. Hệ thống Prompt
 
-### Bước 1: Xác minh & làm sạch
+### Bước 1: Xác minh
 
 ```
 <|SYSTEM|> Chỉ trả về JSON: {"an_toan":true/false,"du_lieu_da_xu_ly":"","loi":""}. 
